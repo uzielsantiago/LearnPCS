@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">LEARN PCS</string>
+
+
+    <string name="btn_inicar_pantalla">Iniciar Sesion</string>
+    <string name="btn_registrar_pantalla">Registrarse</string>
+    <string name="btn_Iniciar_Sesion">Iniciar Sesion</string>
+    <string name="btn_registrarse_sesion">Registrarse</string>
+
+
+    <string name="APRENDE_BTN">APRENDE</string>
+    <string name="INFORMATE_BTN">INFORMATE</string>
+    <string name="NOTICIAS_BTN">NOTICIAS</string>
+    <string name="LIBROS_BTN">LIBROS</string>
+    <string name="CONTACTOS_BTN">DIRECTORIO</string>
+
+    <string name="descripcion_aprende">APRENDE EL LENGUAJE DE SEÑAS</string>
+    <string name="descripcion_informate">INFORMATE QUE ES EL LENGUAJE DE SEÑAS</string>
+    <string name="descripcion_noticias">ENCUENTRA LA INFORMACION MAS RELEVANTE EN GUATEMALA</string>
+    <string name="descripcion_libros">DESCUBRE DIVERSOS LIBROS ACERCA DEL LENGUAJE DE SEÑAS</string>
+    <string name="descripcion_contactos">CONTACTOS DE DIFERENTES TIPOS DE INSTITUCIONES</string>
+
+
+</resources>

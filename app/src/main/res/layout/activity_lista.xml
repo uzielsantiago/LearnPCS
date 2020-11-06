@@ -1,0 +1,1741 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    app:cardBackgroundColor="#9C9999"
+    app:cardCornerRadius="5dp"
+    app:cardElevation="10dp"
+    tools:context=".ListaActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TableRow
+                    android:id="@+id/prociegos"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:cardCornerRadius="35dp"
+                        app:cardUseCompatPadding="true">
+
+                        <LinearLayout
+                            android:layout_width="367dp"
+                            android:layout_height="wrap_content"
+                            android:background="#F43333"
+                            android:orientation="horizontal"
+                            android:padding="10dp">
+
+                            <ImageView
+                                android:id="@+id/imgprociegos"
+                                android:layout_width="100dp"
+                                android:layout_height="100dp"
+                                android:layout_marginRight="10dp"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/prociegos" />
+
+                            <LinearLayout
+                                android:layout_width="243dp"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/tituloProciegos"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center"
+                                    android:text="BENEMÉRITO COMITÉ PRO CIEGOS Y SORDOS DE GUATEMALA"
+                                    android:textColor="#000000"
+                                    android:textSize="16sp"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:id="@+id/dirProciegos"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="9 Calle 3-07, Zona 1, Guatemala"
+                                    android:textColor="#000000" />
+
+                                <TextView
+                                    android:id="@+id/corrProciegos"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="informacion@prociegosysordos.org.gt"
+                                    android:textColor="#000000" />
+
+                                <TextView
+                                    android:id="@+id/numProciegos"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="2382-1800"
+                                    android:textColor="#000000" />
+
+                                <ImageButton
+                                    android:id="@+id/prociegos_btn"
+                                    android:layout_width="90dp"
+                                    android:layout_height="92dp"
+                                    android:layout_gravity="center"
+                                    android:background="#00FFFFFF"
+                                    android:onClick="prociegos_btn"
+                                    android:scaleType="centerCrop"
+                                    app:srcCompat="@mipmap/web" />
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/rubelssy"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:cardCornerRadius="35dp"
+                        app:cardUseCompatPadding="true">
+
+                        <LinearLayout
+                            android:layout_width="367dp"
+                            android:layout_height="wrap_content"
+                            android:background="#A12DDC"
+                            android:orientation="horizontal"
+                            android:padding="10dp">
+
+                            <ImageView
+                                android:id="@+id/imgRub"
+                                android:layout_width="100dp"
+                                android:layout_height="100dp"
+                                android:layout_marginRight="10dp"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/rub" />
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/tituloRub"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center"
+                                    android:text="Centro Rubelssy"
+                                    android:textColor="#000000"
+                                    android:textSize="16sp"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:id="@+id/dirRub"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="centrorubelssy@gmail.com"
+                                    android:textColor="#000000" />
+
+                                <LinearLayout
+                                    android:layout_width="247dp"
+                                    android:layout_height="117dp"
+                                    android:orientation="horizontal">
+
+                                    <Space
+                                        android:layout_width="20dp"
+                                        android:layout_height="match_parent" />
+
+                                    <ImageButton
+                                        android:id="@+id/faceRub"
+                                        android:layout_width="90dp"
+                                        android:layout_height="92dp"
+                                        android:layout_gravity="center"
+                                        android:background="#00FFFFFF"
+                                        android:onClick="faceRub"
+                                        android:scaleType="centerCrop"
+                                        app:srcCompat="@mipmap/facebook" />
+
+                                    <Space
+                                        android:layout_width="15dp"
+                                        android:layout_height="15dp" />
+
+                                    <ImageButton
+                                        android:id="@+id/instaRub"
+                                        android:layout_width="76dp"
+                                        android:layout_height="90dp"
+                                        android:layout_gravity="center"
+                                        android:background="#00FFFFFF"
+                                        android:onClick="instaRub"
+                                        android:scaleType="fitCenter"
+                                        app:srcCompat="@mipmap/instagram" />
+                                </LinearLayout>
+
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/secretaria"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:cardCornerRadius="35dp"
+                        app:cardUseCompatPadding="true">
+
+                        <LinearLayout
+                            android:layout_width="363dp"
+                            android:layout_height="237dp"
+                            android:background="#F46A34"
+                            android:orientation="horizontal"
+                            android:padding="10dp">
+
+                            <ImageView
+                                android:id="@+id/imgSosep"
+                                android:layout_width="100dp"
+                                android:layout_height="100dp"
+                                android:layout_marginRight="10dp"
+                                android:scaleType="fitCenter"
+                                android:src="@drawable/sosep" />
+
+                            <LinearLayout
+                                android:layout_width="241dp"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/tituloSosep"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center"
+                                    android:text="SECRETARÍA DE OBRAS SOCIALES DE LA ESPOSA DEL PRESIDENTE"
+                                    android:textColor="#000000"
+                                    android:textSize="16sp"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:id="@+id/dirSosep"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="6a-av-4-65 zona 1 Puerta 1 Casa Presidencial Guatemala"
+                                    android:textColor="#000000" />
+
+                                <TextView
+                                    android:id="@+id/corrSosep"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="uip@sosep.gob.gt"
+                                    android:textColor="#000000" />
+
+                                <TextView
+                                    android:id="@+id/numSosep"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="2327-6000"
+                                    android:textColor="#000000" />
+
+                                <ImageButton
+                                    android:id="@+id/Sosep_btn"
+                                    android:layout_width="90dp"
+                                    android:layout_height="92dp"
+                                    android:layout_gravity="center"
+                                    android:background="#00FFFFFF"
+                                    android:onClick="Sosep_btn"
+                                    android:scaleType="centerCrop"
+                                    app:srcCompat="@mipmap/web" />
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/bienestarsocial"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:cardCornerRadius="35dp"
+                        app:cardUseCompatPadding="true">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="#ED30A8"
+                            android:orientation="horizontal"
+                            android:padding="10dp">
+
+                            <ImageView
+                                android:id="@+id/imgBienestar"
+                                android:layout_width="100dp"
+                                android:layout_height="match_parent"
+                                android:layout_marginRight="10dp"
+                                android:scaleType="fitCenter"
+                                android:src="@drawable/bienestar" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/tituloBienestar"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center"
+                                    android:text="SECRETARIA DE BIENESTAR SOCIAL"
+                                    android:textColor="#000000"
+                                    android:textSize="16sp"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:id="@+id/dirBienestar"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="32 calle 9-34 zona 11 Colonia Las Charcas Guatemala"
+                                    android:textColor="#000000"
+                                    android:textSize="12sp" />
+
+
+                                <TextView
+                                    android:id="@+id/numBienestar"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="2414-3535 Ext. 3535"
+                                    android:textColor="#000000" />
+
+                                <ImageButton
+                                    android:id="@+id/Bienestar_btn"
+                                    android:layout_width="90dp"
+                                    android:layout_height="92dp"
+                                    android:layout_gravity="center"
+                                    android:background="#00FFFFFF"
+                                    android:onClick="Bienestar_btn"
+                                    android:scaleType="centerCrop"
+                                    app:srcCompat="@mipmap/web" />
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/fundal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:cardCornerRadius="35dp"
+                        app:cardUseCompatPadding="true">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="#542EE1"
+                            android:orientation="horizontal"
+                            android:padding="10dp">
+
+                            <ImageView
+                                android:id="@+id/imgFundal"
+                                android:layout_width="100dp"
+                                android:layout_height="100dp"
+                                android:layout_marginRight="10dp"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/fundal" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/tituloFundal"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center"
+                                    android:text="FUNDACIÓN GUATEMALTECA PARA NIÑOS CON SORDOCEGUERA ALEX"
+                                    android:textColor="#000000"
+                                    android:textSize="16sp"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:id="@+id/dirFundal"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="1a Calle 0-20 Zona 1 Colonia Lomas de Portugal Mixco Guatemala"
+                                    android:textColor="#000000"
+                                    android:textSize="12sp" />
+
+                                <TextView
+                                    android:id="@+id/corrFundal"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="informacion@fundal.org.gt"
+                                    android:textColor="#000000"
+                                    android:textSize="12sp" />
+
+                                <TextView
+                                    android:id="@+id/numFundal"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="1597"
+                                    android:textColor="#000000" />
+
+                                <ImageButton
+                                    android:id="@+id/Fundal_btn"
+                                    android:layout_width="90dp"
+                                    android:layout_height="92dp"
+                                    android:layout_gravity="center"
+                                    android:background="#00FFFFFF"
+                                    android:onClick="Fundal_btn"
+                                    android:scaleType="centerCrop"
+                                    app:srcCompat="@mipmap/web" />
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/escuelasoficiales"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:cardCornerRadius="35dp"
+                        app:cardUseCompatPadding="true">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="#026983"
+                            android:orientation="horizontal"
+                            android:padding="10dp">
+
+                            <ImageView
+                                android:id="@+id/imgMineduc"
+                                android:layout_width="100dp"
+                                android:layout_height="100dp"
+                                android:layout_marginRight="10dp"
+                                android:scaleType="fitCenter"
+                                android:src="@drawable/mineduc" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/tituloMineduc"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center"
+                                    android:text="Escuelas Oficiales de Educación Especial"
+                                    android:textColor="#000000"
+                                    android:textSize="16sp"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:id="@+id/dirMineduc"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="6a. Calle 1-87 Zona 10 Guatemala"
+                                    android:textColor="#000000"
+                                    android:textSize="12sp" />
+
+                                <TextView
+                                    android:id="@+id/corrMineduc"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="info@mineduc.gob.gt"
+                                    android:textColor="#000000"
+                                    android:textSize="12sp" />
+
+                                <TextView
+                                    android:id="@+id/numMineduc"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="2411-9595"
+                                    android:textColor="#000000" />
+
+                                <ImageButton
+                                    android:id="@+id/Mineduc_btn"
+                                    android:layout_width="90dp"
+                                    android:layout_height="92dp"
+                                    android:layout_gravity="center"
+                                    android:background="#00FFFFFF"
+                                    android:onClick="Mineduc_btn"
+                                    android:scaleType="centerCrop"
+                                    app:srcCompat="@mipmap/web" />
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/arana"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:cardCornerRadius="35dp"
+                        app:cardUseCompatPadding="true">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="#40FF70"
+                            android:orientation="horizontal"
+                            android:padding="10dp">
+
+                            <ImageView
+                                android:id="@+id/imgAlida"
+                                android:layout_width="100dp"
+                                android:layout_height="100dp"
+                                android:layout_marginRight="10dp"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/arana" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/tituloAlida"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center"
+                                    android:text="Centro de Educación Especial «Alida España de Arana»"
+                                    android:textColor="#000000"
+                                    android:textSize="16sp"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:id="@+id/dirAlida"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="14 calle 0-28 zona 3 Guatemala "
+                                    android:textColor="#000000"
+                                    android:textSize="12sp" />
+
+                                <TextView
+                                    android:id="@+id/corrAlida"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="direccion.centroalida@sbs.gob.gt"
+                                    android:textColor="#000000"
+                                    android:textSize="12sp" />
+
+                                <TextView
+                                    android:id="@+id/numAlida"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="2414-3535"
+                                    android:textColor="#000000" />
+
+                                <ImageButton
+                                    android:id="@+id/Alida_btn"
+                                    android:layout_width="90dp"
+                                    android:layout_height="92dp"
+                                    android:layout_gravity="center"
+                                    android:background="#00FFFFFF"
+                                    android:onClick="Alida_btn"
+                                    android:scaleType="centerCrop"
+                                    app:srcCompat="@mipmap/web" />
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/anini"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:cardCornerRadius="35dp"
+                        app:cardUseCompatPadding="true">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="#00C853"
+                            android:orientation="horizontal"
+                            android:padding="10dp">
+
+                            <ImageView
+                                android:id="@+id/imgAnini"
+                                android:layout_width="100dp"
+                                android:layout_height="100dp"
+                                android:layout_marginRight="10dp"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/anini" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/tituloAnini"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center"
+                                    android:text="Asociación del Niño por el Niño"
+                                    android:textColor="#000000"
+                                    android:textSize="16sp"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:id="@+id/dirAnini"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="4a. ave. 11-39 zona 9 Guatemala "
+                                    android:textColor="#000000"
+                                    android:textSize="12sp" />
+
+                                <TextView
+                                    android:id="@+id/corrAnini"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="info@anini.org.gt"
+                                    android:textColor="#000000"
+                                    android:textSize="12sp" />
+
+                                <TextView
+                                    android:id="@+id/numAnini"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="1519;  2334-5860;  2362-7040"
+                                    android:textColor="#000000" />
+
+                                <ImageButton
+                                    android:id="@+id/Anini_btn"
+                                    android:layout_width="90dp"
+                                    android:layout_height="92dp"
+                                    android:layout_gravity="center"
+                                    android:onClick="Anini_btn"
+                                    android:scaleType="centerCrop"
+                                    app:srcCompat="@mipmap/web" />
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/ascated"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:cardCornerRadius="35dp"
+                        app:cardUseCompatPadding="true">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="#0091EA"
+                            android:orientation="horizontal"
+                            android:padding="10dp">
+
+                            <ImageView
+                                android:id="@+id/imgAscated"
+                                android:layout_width="100dp"
+                                android:layout_height="100dp"
+                                android:layout_marginRight="10dp"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/ascated" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/tituloAscated"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center"
+                                    android:text="Asociación de Capacitación y Asistencia Técnica en Eduación y Discapacidad"
+                                    android:textColor="#000000"
+                                    android:textSize="16sp"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:id="@+id/dirAscated"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="12 calle 2-04 zona 9 Edificio Plaza del Sol 5to. Nivel Oficina 514 Guatemala "
+                                    android:textColor="#000000"
+                                    android:textSize="12sp" />
+
+                                <TextView
+                                    android:id="@+id/corrAscated"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="agoraguateascated@gmail.com"
+                                    android:textColor="#000000"
+                                    android:textSize="12sp" />
+
+                                <TextView
+                                    android:id="@+id/numAscated"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="2339-4966"
+                                    android:textColor="#000000" />
+
+                                <ImageButton
+                                    android:id="@+id/Ascated_btn"
+                                    android:layout_width="90dp"
+                                    android:layout_height="92dp"
+                                    android:layout_gravity="center"
+                                    android:background="#00FFFFFF"
+                                    android:onClick="Ascated_btn"
+                                    android:scaleType="centerCrop"
+                                    app:srcCompat="@mipmap/web" />
+                            </LinearLayout>
+
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/conadi"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:cardCornerRadius="35dp"
+                        app:cardUseCompatPadding="true">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="#FFDC00"
+                            android:orientation="horizontal"
+                            android:padding="10dp">
+
+                            <ImageView
+                                android:id="@+id/imgConadi"
+                                android:layout_width="100dp"
+                                android:layout_height="100dp"
+                                android:layout_marginRight="10dp"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/conadi" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/tituloConadi"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center"
+                                    android:text="Consejo Nacional para la Atención de las Personas con Discapacidad"
+                                    android:textColor="#000000"
+                                    android:textSize="16sp"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:id="@+id/dirConadi"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="1a.  Avenida 4-18 y 4-19 zona 1."
+                                    android:textColor="#000000"
+                                    android:textSize="12sp" />
+
+                                <TextView
+                                    android:id="@+id/corrConadi"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="conadi@conadi.gob.gtt"
+                                    android:textColor="#000000"
+                                    android:textSize="12sp" />
+
+                                <TextView
+                                    android:id="@+id/numConadi"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="2501-6800"
+                                    android:textColor="#000000" />
+
+                                <ImageButton
+                                    android:id="@+id/Conadi_btn"
+                                    android:layout_width="90dp"
+                                    android:layout_height="92dp"
+                                    android:layout_gravity="center"
+                                    android:background="#00FFFFFF"
+                                    android:onClick="Conadi_btn"
+                                    android:scaleType="centerCrop"
+                                    app:srcCompat="@mipmap/web" />
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/parlacen"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:cardCornerRadius="35dp"
+                        app:cardUseCompatPadding="true">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="#C51162"
+                            android:orientation="horizontal"
+                            android:padding="10dp">
+
+                            <ImageView
+                                android:id="@+id/imgParlamento"
+                                android:layout_width="100dp"
+                                android:layout_height="100dp"
+                                android:layout_marginRight="10dp"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/parlacen" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/tituloParlamento"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center"
+                                    android:text="Parlamento Centroamericano"
+                                    android:textColor="#000000"
+                                    android:textSize="16sp"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:id="@+id/dirParlamento"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="Sede PARLACEN Guatemala   "
+                                    android:textColor="#000000"
+                                    android:textSize="12sp" />
+
+                                <TextView
+                                    android:id="@+id/corrParlamento"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="guatemala@parlacen.int"
+                                    android:textColor="#000000"
+                                    android:textSize="12sp" />
+
+                                <TextView
+                                    android:id="@+id/numParlamento"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="2424-4600"
+                                    android:textColor="#000000" />
+
+                                <ImageButton
+                                    android:id="@+id/Parlacen_btn"
+                                    android:layout_width="90dp"
+                                    android:layout_height="92dp"
+                                    android:layout_gravity="center"
+                                    android:background="#00FFFFFF"
+                                    android:onClick="Parlacen_btn"
+                                    android:scaleType="centerCrop"
+                                    app:srcCompat="@mipmap/web" />
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/asorgua"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:cardCornerRadius="35dp"
+                        app:cardUseCompatPadding="true">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="#304FFE"
+                            android:orientation="horizontal"
+                            android:padding="10dp">
+
+                            <ImageView
+                                android:id="@+id/imgAsorgua"
+                                android:layout_width="100dp"
+                                android:layout_height="100dp"
+                                android:layout_marginRight="10dp"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/asorgua" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/tituloAsorgua"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center"
+                                    android:text="Asociación de Sordos de Guatemala"
+                                    android:textColor="#000000"
+                                    android:textSize="16sp"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:id="@+id/dirAsorgua"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="2a. Calle «A» 10-44 zona 10
+Guatemala"
+                                    android:textColor="#000000"
+                                    android:textSize="12sp" />
+
+                                <TextView
+                                    android:id="@+id/corrAsorgua"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="asorgua@gmail.com"
+                                    android:textColor="#000000"
+                                    android:textSize="12sp" />
+
+                                <TextView
+                                    android:id="@+id/numAsorgua"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="2332-2720"
+                                    android:textColor="#000000" />
+
+                                <ImageButton
+                                    android:id="@+id/faceAsorgua"
+                                    android:layout_width="90dp"
+                                    android:layout_height="90dp"
+                                    android:layout_gravity="center"
+                                    android:background="#00FFFFFF"
+                                    android:onClick="faceAsorgua"
+                                    android:scaleType="centerCrop"
+                                    app:srcCompat="@mipmap/facebook" />
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/asedes"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:cardCornerRadius="35dp"
+                        app:cardUseCompatPadding="true">
+
+                        <LinearLayout
+                            android:layout_width="369dp"
+                            android:layout_height="wrap_content"
+                            android:background="#84F434"
+                            android:orientation="horizontal"
+                            android:padding="10dp">
+
+                            <ImageView
+                                android:id="@+id/imgAsedes"
+                                android:layout_width="100dp"
+                                android:layout_height="100dp"
+                                android:layout_marginRight="10dp"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/asedes" />
+
+                            <LinearLayout
+                                android:layout_width="241dp"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/tituloAsedes"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center"
+                                    android:text="Asociación Educativa Para El Sordo"
+                                    android:textColor="#000000"
+                                    android:textSize="16sp"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:id="@+id/dirAsedes"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="20 Av. Y 13 Calle 'A', Zona 7, Kaminal Juyu 2 Guatemala"
+                                    android:textColor="#000000" />
+
+                                <TextView
+                                    android:id="@+id/corrAsedes"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="info@asedesguatemala.org"
+                                    android:textColor="#000000" />
+
+                                <TextView
+                                    android:id="@+id/numAsedes"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="4189 – 0285"
+                                    android:textColor="#000000" />
+
+                                <ImageButton
+                                    android:id="@+id/faceAsedes"
+                                    android:layout_width="90dp"
+                                    android:layout_height="90dp"
+                                    android:layout_gravity="center"
+                                    android:background="#00FFFFFF"
+                                    android:onClick="faceAsedes"
+                                    android:scaleType="centerCrop"
+                                    app:srcCompat="@mipmap/facebook" />
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/ensenas"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:cardCornerRadius="35dp"
+                        app:cardUseCompatPadding="true">
+
+                        <LinearLayout
+                            android:layout_width="367dp"
+                            android:layout_height="wrap_content"
+                            android:background="#34F47A"
+                            android:orientation="horizontal"
+                            android:padding="10dp">
+
+                            <ImageView
+                                android:id="@+id/imgEnsenas"
+                                android:layout_width="100dp"
+                                android:layout_height="100dp"
+                                android:layout_marginRight="10dp"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/ensenas" />
+
+                            <LinearLayout
+                                android:layout_width="227dp"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/tituloEnsenas"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center"
+                                    android:text="En-Señas Guatemala"
+                                    android:textColor="#000000"
+                                    android:textSize="16sp"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:id="@+id/dirEnsenas"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="Zona 0, lote #8, San Lucas Sacatepéquez Guatemala"
+                                    android:textColor="#000000" />
+
+                                <TextView
+                                    android:id="@+id/corrEnsenas"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="ensenasguatemala@gmail.com"
+                                    android:textColor="#000000" />
+
+                                <TextView
+                                    android:id="@+id/numEnsenas"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="4585 – 9085"
+                                    android:textColor="#000000" />
+
+                                <ImageButton
+                                    android:id="@+id/faceEnsenas"
+                                    android:layout_width="90dp"
+                                    android:layout_height="90dp"
+                                    android:layout_gravity="center"
+                                    android:background="#00FFFFFF"
+                                    android:onClick="faceEnsenas"
+                                    android:scaleType="centerCrop"
+                                    app:srcCompat="@mipmap/facebook" />
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/padres"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:cardCornerRadius="35dp"
+                        app:cardUseCompatPadding="true">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="#FF6D00"
+                            android:orientation="horizontal"
+                            android:padding="10dp">
+
+                            <ImageView
+                                android:id="@+id/imgFedeguapa"
+                                android:layout_width="100dp"
+                                android:layout_height="100dp"
+                                android:layout_marginRight="10dp"
+                                android:scaleType="centerCrop">
+
+                            </ImageView>
+
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/tituloFedeguapa"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center"
+                                    android:text="FEDERACIÓN DE PADRES Y AMIGOS DE PERSONAS CON DISCAPACIDAD"
+                                    android:textColor="#000000"
+                                    android:textSize="16sp"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:id="@+id/dirFedeguapa"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="7a. Avenida 12-23 Zona 9 Edificio Etisa, 7mo. Nivel Guatemala"
+                                    android:textColor="#000000"
+                                    android:textSize="12sp" />
+
+                                <TextView
+                                    android:id="@+id/corrFedeguapa"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="fedepadres@hotmail.com"
+                                    android:textColor="#000000"
+                                    android:textSize="12sp" />
+
+                                <TextView
+                                    android:id="@+id/numFedeguapa"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="2331-7919;  2331-7871"
+                                    android:textColor="#000000" />
+
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/Uvg"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:cardCornerRadius="35dp"
+                        app:cardUseCompatPadding="true">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="#F8FF16"
+                            android:orientation="horizontal"
+                            android:padding="10dp">
+
+                            <ImageView
+                                android:id="@+id/imgUvg"
+                                android:layout_width="100dp"
+                                android:layout_height="100dp"
+                                android:layout_marginRight="10dp"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/uvg">
+
+                            </ImageView>
+
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/tituloUvg"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center"
+                                    android:text="Club de lengua de señas- UVG"
+                                    android:textColor="#000000"
+                                    android:textSize="16sp"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:id="@+id/dirUvg"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="18 avenida 11-95 zona 15, Vista Hermosa 3 Guatemala"
+                                    android:textColor="#000000"
+                                    android:textSize="12sp" />
+
+                                <TextView
+                                    android:id="@+id/corrUvg"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="lenguasenasuvg@gmail.com"
+                                    android:textColor="#000000"
+                                    android:textSize="12sp" />
+
+
+                                <ImageButton
+                                    android:id="@+id/faceUvg"
+                                    android:layout_width="90dp"
+                                    android:layout_height="90dp"
+                                    android:layout_gravity="center"
+                                    android:background="#00FFFFFF"
+                                    android:onClick="faceUvg"
+                                    android:scaleType="centerCrop"
+                                    app:srcCompat="@mipmap/facebook" />
+
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/Ldsi"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:cardCornerRadius="35dp"
+                        app:cardUseCompatPadding="true">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="#059792"
+                            android:orientation="horizontal"
+                            android:padding="10dp">
+
+                            <ImageView
+                                android:id="@+id/imgLdsi"
+                                android:layout_width="100dp"
+                                android:layout_height="100dp"
+                                android:layout_marginRight="10dp"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/ldsi">
+
+                            </ImageView>
+
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/tituloLdsi"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center"
+                                    android:text="EnSeñate LDSI Guatemala"
+                                    android:textColor="#000000"
+                                    android:textSize="16sp"
+                                    android:textStyle="bold" />
+
+
+                                <TextView
+                                    android:id="@+id/corrLdsi"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="ensenateldsi.gua18@gmail.com"
+                                    android:textColor="#000000"
+                                    android:textSize="12sp" />
+
+
+                                <ImageButton
+                                    android:id="@+id/faceLdsi"
+                                    android:layout_width="90dp"
+                                    android:layout_height="90dp"
+                                    android:layout_gravity="center"
+                                    android:background="#00FFFFFF"
+                                    android:onClick="faceLdsi"
+                                    android:scaleType="centerCrop"
+                                    app:srcCompat="@mipmap/facebook" />
+
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/Ley"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:cardCornerRadius="35dp"
+                        app:cardUseCompatPadding="true">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="#FFAB00"
+                            android:orientation="horizontal"
+                            android:padding="10dp">
+
+                            <ImageView
+                                android:id="@+id/imgLey"
+                                android:layout_width="100dp"
+                                android:layout_height="100dp"
+                                android:layout_marginRight="10dp"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/ley">
+
+                            </ImageView>
+
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/tituloLey"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center"
+                                    android:text="Ley de Lengua de Señas de Guatemala Lensegua Decreto 3-2020"
+                                    android:textColor="#000000"
+                                    android:textSize="16sp"
+                                    android:textStyle="bold" />
+
+
+                                <ImageButton
+                                    android:id="@+id/faceLey"
+                                    android:layout_width="90dp"
+                                    android:layout_height="90dp"
+                                    android:layout_gravity="center"
+                                    android:background="#00FFFFFF"
+                                    android:onClick="faceLey"
+                                    android:scaleType="centerCrop"
+                                    app:srcCompat="@mipmap/facebook" />
+
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/Viaje"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:cardCornerRadius="35dp"
+                        app:cardUseCompatPadding="true">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="#64FFDA"
+                            android:orientation="horizontal"
+                            android:padding="10dp">
+
+                            <ImageView
+                                android:id="@+id/imgViaje"
+                                android:layout_width="100dp"
+                                android:layout_height="100dp"
+                                android:layout_marginRight="10dp"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/viaje">
+
+                            </ImageView>
+
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/tituloViaje"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center"
+                                    android:text="Sordos Viajeros"
+                                    android:textColor="#000000"
+                                    android:textSize="16sp"
+                                    android:textStyle="bold" />
+
+
+                                <TextView
+                                    android:id="@+id/numViaje"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="3018-4395"
+                                    android:textColor="#000000"
+                                    android:textSize="12sp" />
+
+
+                                <ImageButton
+                                    android:id="@+id/faceViaje"
+                                    android:layout_width="90dp"
+                                    android:layout_height="90dp"
+                                    android:layout_gravity="center"
+                                    android:background="#00FFFFFF"
+                                    android:onClick="faceViaje"
+                                    android:scaleType="centerCrop"
+                                    app:srcCompat="@mipmap/facebook" />
+
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/Conferencia"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:cardCornerRadius="35dp"
+                        app:cardUseCompatPadding="true">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="#FFEA00"
+                            android:orientation="horizontal"
+                            android:padding="10dp">
+
+                            <ImageView
+                                android:id="@+id/imgConferencia"
+                                android:layout_width="100dp"
+                                android:layout_height="100dp"
+                                android:layout_marginRight="10dp"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/conferencia">
+
+                            </ImageView>
+
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/tituloConferencia"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center"
+                                    android:text="Conferencias Educativas para Sordos, Guatemala"
+                                    android:textColor="#000000"
+                                    android:textSize="16sp"
+                                    android:textStyle="bold" />
+
+
+                                <ImageButton
+                                    android:id="@+id/faceConferencia"
+                                    android:layout_width="90dp"
+                                    android:layout_height="90dp"
+                                    android:layout_gravity="center"
+                                    android:background="#00FFFFFF"
+                                    android:onClick="faceConferencia"
+                                    android:scaleType="centerCrop"
+                                    app:srcCompat="@mipmap/facebook" />
+
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/Latino"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:cardCornerRadius="35dp"
+                        app:cardUseCompatPadding="true">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="#B388FF"
+                            android:orientation="horizontal"
+                            android:padding="10dp">
+
+                            <ImageView
+                                android:id="@+id/imgLatino"
+                                android:layout_width="100dp"
+                                android:layout_height="100dp"
+                                android:layout_marginRight="10dp"
+                                android:scaleType="fitCenter"
+                                android:src="@drawable/latinos">
+
+                            </ImageView>
+
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/tituloLatino"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center"
+                                    android:text="Servicios Para Sordos Latinos"
+                                    android:textColor="#000000"
+                                    android:textSize="16sp"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:id="@+id/dirLatino"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="http://www.latindeafservicesinc.com/"
+                                    android:textColor="#000000"
+                                    android:textSize="12sp" />
+
+                                <TextView
+                                    android:id="@+id/corrLatino"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="sslatinos.10@gmail.com"
+                                    android:textColor="#000000"
+                                    android:textSize="12sp" />
+
+
+                                <ImageButton
+                                    android:id="@+id/faceLatino"
+                                    android:layout_width="90dp"
+                                    android:layout_height="90dp"
+                                    android:layout_gravity="center"
+                                    android:background="#00FFFFFF"
+                                    android:onClick="faceLatino"
+                                    android:scaleType="centerCrop"
+                                    app:srcCompat="@mipmap/facebook" />
+
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/Usac"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:cardCornerRadius="35dp"
+                        app:cardUseCompatPadding="true">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="#B2FF59"
+                            android:orientation="horizontal"
+                            android:padding="10dp">
+
+                            <ImageView
+                                android:id="@+id/imgUsac"
+                                android:layout_width="100dp"
+                                android:layout_height="100dp"
+                                android:layout_marginRight="10dp"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/usac">
+
+                            </ImageView>
+
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/tituloUsac"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center"
+                                    android:text="Educación Especial USAC"
+                                    android:textColor="#000000"
+                                    android:textSize="16sp"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:id="@+id/dirUsac"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="Facultad de Psicologia USAC"
+                                    android:textColor="#000000"
+                                    android:textSize="12sp" />
+
+                                <TextView
+                                    android:id="@+id/corrUsac"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="pee@psicousac.edu.gt"
+                                    android:textColor="#000000"
+                                    android:textSize="12sp" />
+
+
+                                <ImageButton
+                                    android:id="@+id/faceUsac"
+                                    android:layout_width="90dp"
+                                    android:layout_height="90dp"
+                                    android:layout_gravity="center"
+                                    android:background="#00FFFFFF"
+                                    android:onClick="faceUsac"
+                                    android:scaleType="centerCrop"
+                                    app:srcCompat="@mipmap/facebook" />
+
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+
+                </TableRow>
+
+            </TableLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,625 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    app:cardBackgroundColor="#0091EA"
+    app:cardCornerRadius="5dp"
+    app:cardElevation="10dp"
+    tools:context=".ListaActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#6A17DC"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#0727DF"
+                android:fontFamily="@font/bangers"
+                android:gravity="center"
+                android:text="MODULO 1"
+                android:textColor="#FFFFFF"
+                android:textSize="36sp" />
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TableRow
+                    android:layout_width="404dp"
+                    android:layout_height="match_parent"
+                    android:background="#FFFFFF">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:cardBackgroundColor="#FAFDFF"
+                        app:cardCornerRadius="35dp"
+                        app:cardUseCompatPadding="true">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="#00B0FF"
+                            android:orientation="horizontal">
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/tituloAbc"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center"
+                                    android:text="ABECEDARIO"
+                                    android:textColor="#000000"
+                                    android:textSize="16sp"
+                                    android:textStyle="bold" />
+
+                                <ImageButton
+                                    android:id="@+id/imageAbc"
+                                    style="@android:style/Widget.ImageButton"
+                                    android:layout_width="187dp"
+                                    android:layout_height="190dp"
+                                    android:background="#0F9ECA"
+                                    android:onClick="imageAbc"
+                                    android:scaleType="fitCenter"
+                                    app:srcCompat="@mipmap/abecedario" />
+
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/tituloDias"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center"
+                                    android:text="DÍAS DE LA SEMANA"
+                                    android:textColor="#000000"
+                                    android:textSize="16sp"
+                                    android:textStyle="bold" />
+
+                                <ImageButton
+                                    android:id="@+id/imageSemana"
+                                    android:layout_width="186dp"
+                                    android:layout_height="189dp"
+                                    android:onClick="imageSemana"
+                                    android:scaleType="fitCenter"
+                                    android:tint="#005E1515"
+                                    app:srcCompat="@mipmap/semana" />
+
+
+                            </LinearLayout>
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                </TableRow>
+
+            </TableLayout>
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TableRow
+                    android:layout_width="373dp"
+                    android:layout_height="match_parent"
+                    android:background="#FFFFFF">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="376dp"
+                        android:layout_height="wrap_content"
+                        app:cardBackgroundColor="#9F0E0E"
+                        app:cardCornerRadius="35dp"
+                        app:cardUseCompatPadding="true">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="#6200EA"
+                            android:orientation="horizontal">
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/tituloNum"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center"
+                                    android:text="NUMEROS"
+                                    android:textColor="#000000"
+                                    android:textSize="16sp"
+                                    android:textStyle="bold" />
+
+                                <ImageButton
+                                    android:id="@+id/imageNum"
+                                    android:layout_width="175dp"
+                                    android:layout_height="193dp"
+                                    android:background="#6200EA"
+                                    android:onClick="imageNum"
+                                    android:scaleType="fitCenter"
+                                    app:srcCompat="@mipmap/numeros" />
+
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/tituloCortesia"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center"
+                                    android:text="FRASES DE CORTESIA"
+                                    android:textColor="#000000"
+                                    android:textSize="16sp"
+                                    android:textStyle="bold" />
+
+                                <ImageButton
+                                    android:id="@+id/imageCortesia"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:background="#6200EA"
+                                    android:onClick="imageCortesia"
+                                    android:scaleType="fitCenter"
+                                    app:srcCompat="@drawable/cortesia" />
+
+
+                            </LinearLayout>
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                </TableRow>
+
+            </TableLayout>
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TableRow
+                    android:layout_width="373dp"
+                    android:layout_height="match_parent"
+                    android:background="#FFFFFF">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="376dp"
+                        android:layout_height="wrap_content"
+                        app:cardBackgroundColor="#9F0E0E"
+                        app:cardCornerRadius="35dp"
+                        app:cardUseCompatPadding="true">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="#F50057"
+                            android:orientation="horizontal">
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/tituloMeses"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center"
+                                    android:text="MESES DEL AÑOL"
+                                    android:textColor="#000000"
+                                    android:textSize="16sp"
+                                    android:textStyle="bold" />
+
+                                <ImageButton
+                                    android:id="@+id/imageMeses"
+                                    android:layout_width="175dp"
+                                    android:layout_height="193dp"
+                                    android:background="#F50057"
+                                    android:onClick="imageMeses"
+                                    android:scaleType="fitCenter"
+                                    app:srcCompat="@drawable/meses" />
+
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/tituloPronombres"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center"
+                                    android:text="PRNOMBRES PERSONALES"
+                                    android:textColor="#000000"
+                                    android:textSize="16sp"
+                                    android:textStyle="bold" />
+
+                                <ImageButton
+                                    android:id="@+id/imagePronombres"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:background="#F50057"
+                                    android:onClick="imagePronombres"
+                                    android:scaleType="fitCenter"
+                                    app:srcCompat="@drawable/pronombres" />
+
+
+                            </LinearLayout>
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                </TableRow>
+
+            </TableLayout>
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TableRow
+                    android:layout_width="373dp"
+                    android:layout_height="match_parent"
+                    android:background="#FFFFFF">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="376dp"
+                        android:layout_height="wrap_content"
+                        app:cardBackgroundColor="#9F0E0E"
+                        app:cardCornerRadius="35dp"
+                        app:cardUseCompatPadding="true">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="#00E676"
+                            android:orientation="horizontal">
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/tituloColores"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center"
+                                    android:text="COLORES"
+                                    android:textColor="#000000"
+                                    android:textSize="16sp"
+                                    android:textStyle="bold" />
+
+                                <ImageButton
+                                    android:id="@+id/imageColores"
+                                    android:layout_width="175dp"
+                                    android:layout_height="193dp"
+                                    android:background="#00E676"
+                                    android:onClick="imageColores"
+                                    android:scaleType="fitCenter"
+                                    app:srcCompat="@drawable/colores" />
+
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/tituloEmociones"
+                                    android:layout_width="137dp"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center|right"
+                                    android:text="EMOCIONES"
+                                    android:textColor="#000000"
+                                    android:textSize="16sp"
+                                    android:textStyle="bold" />
+
+                                <ImageButton
+                                    android:id="@+id/imageEmociones"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:background="#00E676"
+                                    android:onClick="imageEmociones"
+                                    android:scaleType="fitCenter"
+                                    app:srcCompat="@drawable/emociones" />
+
+
+                            </LinearLayout>
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                </TableRow>
+
+            </TableLayout>
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TableRow
+                    android:layout_width="373dp"
+                    android:layout_height="match_parent"
+                    android:background="#FFFFFF">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="376dp"
+                        android:layout_height="wrap_content"
+                        app:cardBackgroundColor="#D500F9"
+                        app:cardCornerRadius="35dp"
+                        app:cardUseCompatPadding="true">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="#76FF03"
+                            android:orientation="horizontal">
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/tituloFamilia"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center"
+                                    android:text="FAMILIA"
+                                    android:textColor="#000000"
+                                    android:textSize="16sp"
+                                    android:textStyle="bold" />
+
+                                <ImageButton
+                                    android:id="@+id/imageFamilia"
+                                    android:layout_width="175dp"
+                                    android:layout_height="193dp"
+                                    android:background="#76FF03"
+                                    android:onClick="imageFamilia"
+                                    android:scaleType="fitCenter"
+                                    app:srcCompat="@drawable/familia" />
+
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/tituloSentimientos"
+                                    android:layout_width="137dp"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center|right"
+                                    android:text="SENTIMIENTOS"
+                                    android:textColor="#000000"
+                                    android:textSize="16sp"
+                                    android:textStyle="bold" />
+
+                                <ImageButton
+                                    android:id="@+id/imageSentimientos"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:background="#76FF03"
+                                    android:onClick="imageSentimientos"
+                                    android:scaleType="fitCenter"
+                                    app:srcCompat="@drawable/sentimientos" />
+
+
+                            </LinearLayout>
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                </TableRow>
+
+            </TableLayout>
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TableRow
+                    android:layout_width="373dp"
+                    android:layout_height="match_parent"
+                    android:background="#FFFFFF">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="376dp"
+                        android:layout_height="wrap_content"
+                        app:cardBackgroundColor="#D500F9"
+                        app:cardCornerRadius="35dp"
+                        app:cardUseCompatPadding="true">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="#D500F9"
+                            android:orientation="horizontal">
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:background="#D500F9"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/tituloUtiles"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center"
+                                    android:text="UTILES"
+                                    android:textColor="#000000"
+                                    android:textSize="16sp"
+                                    android:textStyle="bold" />
+
+                                <ImageButton
+                                    android:id="@+id/imageUtiles"
+                                    android:layout_width="175dp"
+                                    android:layout_height="193dp"
+                                    android:background="#D500F9"
+                                    android:onClick="imageUtiles"
+                                    android:scaleType="fitCenter"
+                                    app:srcCompat="@drawable/utiles" />
+
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:background="#D500F9"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/tituloDepartamentos"
+                                    android:layout_width="137dp"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center|right"
+                                    android:text="DEPARTAMENTOS"
+                                    android:textColor="#000000"
+                                    android:textSize="16sp"
+                                    android:textStyle="bold" />
+
+                                <ImageButton
+                                    android:id="@+id/imageDepartamentos"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:background="#D500F9"
+                                    android:onClick="imageDepartamentos"
+                                    android:scaleType="fitCenter"
+                                    app:srcCompat="@drawable/departamenos" />
+
+
+                            </LinearLayout>
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                </TableRow>
+
+            </TableLayout>
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TableRow
+                    android:layout_width="373dp"
+                    android:layout_height="match_parent"
+                    android:background="#FFFFFF">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="376dp"
+                        android:layout_height="wrap_content"
+                        app:cardBackgroundColor="#1DE9B6"
+                        app:cardCornerRadius="35dp"
+                        app:cardUseCompatPadding="true">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="#1DE9B6"
+                            android:orientation="horizontal">
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:background="#1DE9B6"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/tituloTiempo"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center"
+                                    android:text="EL TIEMPO"
+                                    android:textColor="#000000"
+                                    android:textSize="16sp"
+                                    android:textStyle="bold" />
+
+                                <ImageButton
+                                    android:id="@+id/imageTiempo"
+                                    android:layout_width="175dp"
+                                    android:layout_height="193dp"
+                                    android:background="#1DE9B6"
+                                    android:onClick="imageTiempo"
+                                    android:scaleType="fitCenter"
+                                    app:srcCompat="@drawable/tiempo" />
+
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:background="#1DE9B6"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/tituloInterrogantes"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center"
+                                    android:text="INTERROGANTES"
+                                    android:textColor="#000000"
+                                    android:textSize="16sp"
+                                    android:textStyle="bold" />
+
+                                <ImageButton
+                                    android:id="@+id/imageInterrogantes"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:background="#1DE9B6"
+                                    android:onClick="imageInterrogantes"
+                                    android:scaleType="fitCenter"
+                                    app:srcCompat="@drawable/interrogantess" />
+
+
+                            </LinearLayout>
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                </TableRow>
+
+            </TableLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.cardview.widget.CardView>

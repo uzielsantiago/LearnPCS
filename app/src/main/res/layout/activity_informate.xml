@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    app:cardBackgroundColor="#AA00FF"
+    app:cardCornerRadius="5dp"
+    app:cardElevation="10dp"
+    tools:context=".ListaActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="717dp"
+                        app:cardCornerRadius="35dp"
+                        app:cardUseCompatPadding="true">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="#14C300"
+                            android:orientation="horizontal"
+                            android:padding="10dp">
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="642dp"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/infoqes"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center"
+                                    android:text="¿QUÉ ES LA LENGUA DE SEÑAS?"
+                                    android:textColor="#000000"
+                                    android:textSize="16sp"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:id="@+id/infoqes1"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="La lengua de señas es la lengua natural de las personas Sordas. Una lengua que, como cualquier otra, posee y cumple todas las leyes lingüísticas y se aprende dentro de la comunidad de usuarios a quienes facilita resolver todas las necesidades comunicativas y no comunicativas propias del ser humano, social y cultural. Existen muchos y excelentes trabajos publicados por diferentes especialistas sobre la lengua de señas que demuestran científicamente estas realidades."
+                                    android:textColor="#000000" />
+
+                                <TextView
+                                    android:id="@+id/infoqes2"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="La lengua de señas es una hermosa lengua que también está al alcance de las personas oyentes siempre que se sumerjan en el mundo del Sordo. (Sordo-a, con Mayúscula, es una convención utilizada para designar a las personas que se identifican con la lengua, costumbres, valores, tradiciones, etc. de la comunidad Sorda. Escrito en minúscula está referido a la perspectiva médica-clínica). En consecuencia, los oyentes que cumplan estas condiciones también pueden pertenecer a ese grupo lingüístico-cultural. Los sordos oralizados que no las comparten y están integrados en el mundo oyente, no pertenecen a la comunidad Sorda."
+                                    android:textColor="#000000" />
+
+                                <VideoView
+                                    android:id="@+id/vv1"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent" />
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="717dp"
+                        app:cardCornerRadius="35dp"
+                        app:cardUseCompatPadding="true">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="#F37520"
+                            android:orientation="horizontal"
+                            android:padding="10dp">
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="642dp"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/infocultura"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center"
+                                    android:text="ENCUENTRO ENTRE LENGUAJE ORAL Y LENGUA DE SEÑAS"
+                                    android:textColor="#000000"
+                                    android:textSize="16sp"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:id="@+id/infocultura1"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Generalmente los oyentes logran comunicarse con mayor eficacia con los sordos oralizados, o sea primeramente entrenados en la lengua oral en las escuelas oralistas, quienes, al entrar posteriormente en la comunidad de Sordos Gestuales, aprenden un “vocabulario” básico de señas que luego transmiten a los oyentes que desean aprender esa lengua. Evidentemente, aprender un vocabulario, por más extenso que sea, no significa aprender ni dominar una lengua."
+                                    android:textColor="#000000" />
+
+                                <TextView
+                                    android:id="@+id/infocultura2"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="El proceso de aprendizaje de la lengua de señas es igual para todos los sordos oralizados: en sus primeros años asisten a las escuelas oralistas donde entran en contacto con la lengua oral, de cuya gramática cada individuo sordo logra apropiarse en grado diferente. Comúnmente, en su juventud muchos asisten a las asociaciones de Sordos donde comienzan a aprender un vocabulario de señas. En una primera etapa, se expresan con Bimodal, que consiste en enunciados con la gramática del oral al mismo tiempo que se articulan las señas aprendidas."
+                                    android:textColor="#000000" />
+
+                                <VideoView
+                                    android:id="@+id/vv2"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent" />
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="400dp"
+                        app:cardCornerRadius="35dp"
+                        app:cardUseCompatPadding="true">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="#BEFB2F"
+                            android:orientation="horizontal"
+                            android:padding="10dp">
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/infoencuentro"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center"
+                                    android:text="LA CULTURA SORDA"
+                                    android:textColor="#000000"
+                                    android:textSize="16sp"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:id="@+id/infoencuentro1"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="En el mundo viven millones de personas sordas cuya primera lengua no puede ser una lengua hablada, por lo que adoptan formas alternativas de comunicación visual. Esto las lleva a desarrollar costumbres y valores peculiares, que tienden a convertirse en tradiciones. Es lo que entendemos como cultura sorda. Con sus lenguas de señas, las personas sordas conforman minorías lingüísticas."
+                                    android:textColor="#000000" />
+
+                                <VideoView
+                                    android:id="@+id/vv3"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent" />
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="717dp"
+                        app:cardCornerRadius="35dp"
+                        app:cardUseCompatPadding="true">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="#13BCC1"
+                            android:orientation="horizontal"
+                            android:padding="10dp">
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="642dp"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/infodia"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center"
+                                    android:text="Día Internacional de las Lenguas de Señas (23 de septiembre)"
+                                    android:textColor="#000000"
+                                    android:textSize="16sp"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:id="@+id/infodia1"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Este 23 de septiembre se lleva a cabo la celebración del Día Internacional de las Lenguas de Señas, establecido por la Asamblea General de la Organización de las Naciones Unidas (ONU). Esta fecha se adscribe a la Semana Internacional de los Sordos, misma que fue celebrada por primera vez en septiembre de 1958."
+                                    android:textColor="#000000" />
+
+                                <TextView
+                                    android:id="@+id/infodia2"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="La elección de este día como conmemoración, se atribuye a que, en la misma fecha, en 1951, fue establecida la Federación Mundial de Sordos (FMS). De acuerdo con información de la ONU, la intención de la fecha es crear conciencia sobre la importancia de las lenguas de señas “para la plena realización de los derechos humanos de las personas sordas”."
+                                    android:textColor="#000000" />
+
+                                <TextView
+                                    android:id="@+id/infodia3"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="En el mundo existen alrededor de 72 millones de personas sordas. De estas, más del 80 por ciento viven en países en desarrollo y utilizan 300 diferentes lenguas; según información de la FMS. Según datos del Benemérito Comité Pro Ciegos y Sordos de Guatemala, en el país el 10.2 por ciento de la población tiene alguna discapacidad, de la cual alrededor de 250 mil personas tienen una discapacidad auditiva."
+                                    android:textColor="#000000" />
+
+                                <VideoView
+                                    android:id="@+id/vv4"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent" />
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+
+                </TableRow>
+
+            </TableLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.cardview.widget.CardView>
